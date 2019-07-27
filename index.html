@@ -1,0 +1,31 @@
+<html>
+<body>
+
+  <body onload="myFunction();">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  // var time = new Date().getHours();
+  // if (time < 20) {
+  //   document.getElementById("demo").innerHTML = "Good day";
+  // }
+  var okToGrill = true;
+  var retText = ""
+  if(okToGrill){
+      // document.getElementById("demo").innerHTML = "Good day";
+      retText = "Ja!"
+    }
+    else{
+      retText = "Nej!"
+    }
+    document.getElementById("demo").innerHTML = '<font size="7">'+retText+'</font>';
+}
+</script>
+
+
+<a class="twitter-timeline" href="https://twitter.com/SSBFaktuellt?ref_src=twsrc%5Etfw">Tweets by SSBFaktuellt</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</body>
+</html>
